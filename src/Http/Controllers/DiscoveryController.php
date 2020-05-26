@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 
 class DiscoveryController extends Controller
 {
-
-    private $expectedFields =  [
+    private $expectedFields = [
         'issuer',
         'authorization_endpoint',
         'token_endpoint',
@@ -22,8 +21,9 @@ class DiscoveryController extends Controller
         'token_endpoint_auth_methods_supported',
         'claims_supported',
         'code_challenge_methods_supported',
-        'grant_types_supported'
+        'grant_types_supported',
     ];
+
     /**
      * Handle the incoming request.
      *
@@ -32,17 +32,18 @@ class DiscoveryController extends Controller
      */
     public function __invoke(Request $request)
     {
-
         $config = config('laravelopenid');
         $expectedFields = $this->getExpectedFields();
         $data = [];
-        foreach($expectedFields as $field){
+        foreach ($expectedFields as $field) {
             $data[$field] = $config[$field];
         }
+
         return $data;
     }
 
-    private function getExpectedFields(){
+    private function getExpectedFields()
+    {
         //@todo make this extensible from the config
         return $this->expectedFields;
     }

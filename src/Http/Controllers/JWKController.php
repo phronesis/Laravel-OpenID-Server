@@ -3,9 +3,8 @@
 namespace DavidUmoh\LaravelOpenID\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Jose\Component\KeyManagement\JWKFactory;
 use Jose\Component\Core\JWKSet;
-
+use Jose\Component\KeyManagement\JWKFactory;
 
 class JWKController extends Controller
 {
@@ -20,6 +19,7 @@ class JWKController extends Controller
     public function __invoke(Request $request)
     {
         $keyPath = storage_path(self::KEYNAME);
+
         return new JWKSet([JWKFactory::createFromKeyFile($keyPath, null, ['use'=>'sig'])]);
     }
 }

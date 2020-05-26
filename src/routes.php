@@ -1,9 +1,8 @@
 <?php
 
-
-use DavidUmoh\LaravelOpenID\Http\Controllers\JWKController;
 use DavidUmoh\LaravelOpenID\Http\Controllers\DiscoveryController;
 use DavidUmoh\LaravelOpenID\Http\Controllers\EndSessionController;
+use DavidUmoh\LaravelOpenID\Http\Controllers\JWKController;
 use DavidUmoh\LaravelOpenID\Http\Controllers\RevokeTokenController;
 use DavidUmoh\LaravelOpenID\Http\Controllers\UserInfoController;
 
