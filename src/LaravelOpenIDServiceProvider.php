@@ -48,7 +48,7 @@ class LaravelOpenIDServiceProvider extends ServiceProvider
     {
         return ['laravelopenid'];
     }
-    
+
     /**
      * Console-specific booting.
      *
