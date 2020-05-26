@@ -13,7 +13,6 @@ matrix:
 
 before_script:
   - travis_retry composer self-update
-  - composer config minimum-stability ${STABILITY}
   - travis_retry composer update --no-interaction --prefer-source
 
 script:
