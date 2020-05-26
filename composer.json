@@ -1,0 +1,43 @@
+{
+    "name": "davidumoh/laravelopenid",
+    "description": "An OpenId Implementation for Laravel based apps. It builds upon work done by `steverhoades",
+    "license": "/",
+    "authors": [
+        {
+            "name": "David Umoh",
+            "email": "umohdavid@gmail.com",
+            "homepage": "https://www.twitter.com/umohdave"
+        }
+    ],
+    "homepage": "https://github.com/davidumoh/laravelopenid",
+    "keywords": ["Laravel", "LaravelOpenID"],
+    "require": {
+        "illuminate/support": "~5|~6|~7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DavidUmoh\\LaravelOpenID\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DavidUmoh\\LaravelOpenID\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DavidUmoh\\LaravelOpenID\\LaravelOpenIDServiceProvider"
+            ],
+            "aliases": {
+                "LaravelOpenID": "DavidUmoh\\LaravelOpenID\\Facades\\LaravelOpenID"
+            }
+        }
+    }
+}
