@@ -47,11 +47,11 @@ If you discover any security related issues, please email umohdavid@gmail.com in
 [ico-version]: https://img.shields.io/packagist/v/davidumoh/laravelopenid.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/davidumoh/laravelopenid.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/davidumoh/laravelopenid/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-styleci]: https://github.styleci.io/repos/266979641/shield?branch=master
 
 [link-packagist]: https://packagist.org/packages/davidumoh/laravelopenid
 [link-downloads]: https://packagist.org/packages/davidumoh/laravelopenid
 [link-travis]: https://travis-ci.org/davidumoh/laravelopenid
-[link-styleci]: https://github.styleci.io/analyses/e7v4nv#
+[link-styleci]: https://github.styleci.io/repos/266979641
 [link-author]: https://github.com/davidumoh
 [link-contributors]: ../../contributors
