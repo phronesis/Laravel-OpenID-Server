@@ -52,6 +52,6 @@ If you discover any security related issues, please email umohdavid@gmail.com in
 [link-packagist]: https://packagist.org/packages/davidumoh/laravelopenid
 [link-downloads]: https://packagist.org/packages/davidumoh/laravelopenid
 [link-travis]: https://travis-ci.org/davidumoh/laravelopenid
-[link-styleci]: https://styleci.io/repos/12345678
+[link-styleci]: https://github.styleci.io/analyses/e7v4nv#
 [link-author]: https://github.com/davidumoh
 [link-contributors]: ../../contributors
