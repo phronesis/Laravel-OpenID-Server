@@ -1,6 +1,7 @@
 <?php
 
 namespace DavidUmoh\LaravelOpenID\Http\Controllers;
+
 use Illuminate\Http\Request;
 
 class EndSessionController extends Controller

@@ -19,12 +19,12 @@ class OpenIDDiscoveryTest extends TestCase
         ->assertJsonFragment($this->expectedData());
     }
 
-    private function expectedData(){
+    private function expectedData()
+    {
         return [
             'issuer'=> config('laravelopenid.issuer'),
             'token_endpoint'=>config('laravelopenid.token_endpoint'),
-            'jwks_uri'=>config('laravelopenid.jwks_uri')
+            'jwks_uri'=>config('laravelopenid.jwks_uri'),
         ];
     }
-
 }

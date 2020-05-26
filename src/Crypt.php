@@ -4,7 +4,7 @@ namespace DavidUmoh\LaravelOpenID;
 
 use League\OAuth2\Server\CryptTrait;
 
-class Crypt{
-
+class Crypt
+{
     use CryptTrait;
 }
